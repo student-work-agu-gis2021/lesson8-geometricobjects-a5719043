@@ -43,6 +43,18 @@ print(point1.geom_type)
 
 # YOUR CODE HERE 2 to define create_line_geom()
 def create_line_geom(points):
+   """Returns line for 2 poimts
+
+    Parameters:
+    ----------
+    points : 
+        2 points To determine line
+    
+
+    Returns:
+    ----------
+    line with 2 points
+    """
   assert type(points)==list
   assert len(points)>=2
   line =  LineString([points[0],points[1]])
@@ -87,11 +99,11 @@ except Exception as e:
 
 # YOUR CODE HERE 4 to define create_poly_geom()
 def create_poly_geom(coords):
-  """Returns Point for x_coord,y_coord
+  """Returns polygon for some points
 
     Parameters:
     ----------
-    x_coords : list
+    coords: list
 
     Returns:
     ----------
