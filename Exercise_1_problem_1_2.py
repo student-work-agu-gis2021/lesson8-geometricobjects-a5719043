@@ -55,10 +55,10 @@ def create_line_geom(points):
     ----------
     line with 2 points
     """
-  assert type(points)==list
-  assert len(points)>=2
-  line =  LineString([points[0],points[1]])
-  return line
+   assert type(points)==list
+   assert len(points)>=2
+   line =  LineString([points[0],points[1]])
+   return line
 
 
 # Demonstrate the usage of your function; For example, create a line object with two points: `Point(45.2, 22.34)` & `Point(100.22, -3.20)` and store the result in a variable called `line1`:
