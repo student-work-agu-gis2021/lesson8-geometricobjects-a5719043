@@ -150,7 +150,11 @@ except Exception as e:
 # 
 
 #  YOUR CODE HERE 6 to define get_centroid()
-
+def get_centroid(geom):
+  return
+  assert type(geom)==Point(),'point'
+  assert type(geom)==LineString(),'line'
+  assert type(geom)==Polygon(),'polygon'
 # Test and demonstrate the usage of the function. You can, for example, create shapely objects using the functions you created in problem 1 and print out information about their centroids:
 # 
 
